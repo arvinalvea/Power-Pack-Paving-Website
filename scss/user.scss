@@ -3,6 +3,17 @@
 // user.scss
 //
 // Place your own custom CSS or SCSS rules below this line, these rules will override any Bootstrap and theme variables.
+
+.navbar {
+    padding: 0 1.5rem;
+}
+
 .navbar[data-sticky="top"].scrolled.navbar-dark {
     background: #000;
+}
+
+.main-logo {
+    border-radius: 0;
+    width: 7.5rem;
+    height: 7.5rem;
 }
