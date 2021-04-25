@@ -12,10 +12,19 @@
     background: #212529;
 }
 
+nav[data-overlay].navbar-toggled-show.navbar-dark {
+    background: #212529;
+    padding-bottom: 2rem;
+}
+
 .main-logo {
     border-radius: 0;
     width: 7.5rem;
     height: 7.5rem;
+}
+
+.portfolio-hero-headings {
+    padding-top: 6.5rem;
 }
 
 .testimonials-hero-headings {
@@ -23,5 +32,6 @@
 }
 
 .hero-headings {
-    padding-top: 8.5rem;
+    padding-top: 4.5rem;
+    padding-bottom: 2.5rem;
 }
